@@ -22,6 +22,7 @@ fork := true
 
 libraryDependencies ++= Seq(
   "org.apache.arrow" % "arrow-vector"  % "0.13.0",
+  "org.scodec"      %% "scodec-bits"   % "1.1.14",
   "org.typelevel"   %% "spire"         % "0.16.1",
   "org.slf4j"        % "slf4j-api"     % "1.7.26",
   "org.slf4j"        % "slf4j-log4j12" % "1.7.26",

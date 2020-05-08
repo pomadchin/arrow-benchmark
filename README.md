@@ -135,3 +135,45 @@ More documentation about launch parameters can be found in the [sbt-jmh](https:/
 [info] ArrowVectorDoubleBenchmark.sumVector             20  thrpt    5   2.292 ±  0.115  ops/us
 [info] ArrowVectorDoubleBenchmark.sumVector             26  thrpt    5   0.933 ±  0.121  ops/us
 ```
+
+### SCodecByteBenchmark
+
+```
+[info] Benchmark                             (size)   Mode  Cnt    Score    Error   Units
+[info] SCodecByteBenchmark.randomArray           10  thrpt    5   97.892 ± 46.875  ops/us
+[info] SCodecByteBenchmark.randomArray           20  thrpt    5   71.209 ± 39.339  ops/us
+[info] SCodecByteBenchmark.randomArray           26  thrpt    5   14.608 ±  0.184  ops/us
+[info] SCodecByteBenchmark.randomBuf             10  thrpt    5  104.223 ±  9.726  ops/us
+[info] SCodecByteBenchmark.randomBuf             20  thrpt    5   75.598 ±  2.747  ops/us
+[info] SCodecByteBenchmark.randomBuf             26  thrpt    5   14.202 ±  1.990  ops/us
+[info] SCodecByteBenchmark.randomSCodec          10  thrpt    5  101.147 ±  1.517  ops/us
+[info] SCodecByteBenchmark.randomSCodec          20  thrpt    5   76.181 ±  1.482  ops/us
+[info] SCodecByteBenchmark.randomSCodec          26  thrpt    5   14.693 ±  0.986  ops/us
+[info] SCodecByteBenchmark.randomVector          10  thrpt    5   91.929 ±  1.176  ops/us
+[info] SCodecByteBenchmark.randomVector          20  thrpt    5   24.333 ±  0.888  ops/us
+[info] SCodecByteBenchmark.randomVector          26  thrpt    5    5.788 ±  0.160  ops/us
+[info] SCodecByteBenchmark.sequentialArray       10  thrpt    5    8.547 ±  1.032  ops/us
+[info] SCodecByteBenchmark.sequentialArray       20  thrpt    5    7.128 ±  5.997  ops/us
+[info] SCodecByteBenchmark.sequentialArray       26  thrpt    5    3.230 ±  0.881  ops/us
+[info] SCodecByteBenchmark.sequentialBuf         10  thrpt    5    7.793 ±  4.170  ops/us
+[info] SCodecByteBenchmark.sequentialBuf         20  thrpt    5    6.508 ±  1.677  ops/us
+[info] SCodecByteBenchmark.sequentialBuf         26  thrpt    5    4.104 ±  0.774  ops/us
+[info] SCodecByteBenchmark.sequentialSCodec      10  thrpt    5    5.812 ±  1.867  ops/us
+[info] SCodecByteBenchmark.sequentialSCodec      20  thrpt    5    5.034 ±  1.434  ops/us
+[info] SCodecByteBenchmark.sequentialSCodec      26  thrpt    5    2.905 ±  1.417  ops/us
+[info] SCodecByteBenchmark.sequentialVector      10  thrpt    5    5.071 ±  0.541  ops/us
+[info] SCodecByteBenchmark.sequentialVector      20  thrpt    5    3.032 ±  0.643  ops/us
+[info] SCodecByteBenchmark.sequentialVector      26  thrpt    5    1.225 ±  0.442  ops/us
+[info] SCodecByteBenchmark.sumArray              10  thrpt    5   41.187 ±  2.513  ops/us
+[info] SCodecByteBenchmark.sumArray              20  thrpt    5   30.810 ±  5.627  ops/us
+[info] SCodecByteBenchmark.sumArray              26  thrpt    5    7.691 ±  1.399  ops/us
+[info] SCodecByteBenchmark.sumBuf                10  thrpt    5   33.670 ±  2.501  ops/us
+[info] SCodecByteBenchmark.sumBuf                20  thrpt    5   26.375 ± 14.261  ops/us
+[info] SCodecByteBenchmark.sumBuf                26  thrpt    5    6.822 ±  2.093  ops/us
+[info] SCodecByteBenchmark.sumSCodec             10  thrpt    5   22.828 ±  2.170  ops/us
+[info] SCodecByteBenchmark.sumSCodec             20  thrpt    5   18.091 ±  5.227  ops/us
+[info] SCodecByteBenchmark.sumSCodec             26  thrpt    5    6.163 ±  0.883  ops/us
+[info] SCodecByteBenchmark.sumVector             10  thrpt    5   10.021 ±  2.794  ops/us
+[info] SCodecByteBenchmark.sumVector             20  thrpt    5    4.027 ±  1.078  ops/us
+[info] SCodecByteBenchmark.sumVector             26  thrpt    5    1.472 ±  0.231  ops/us
+```
